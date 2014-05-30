@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0646A819201EB200431098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0646A719201EB200431098 /* Images.xcassets */; };
+		EA7EC42A1917425B0068A39B /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EC4291917425A0068A39B /* CaptureViewController.m */; };
+		EA8BD2BE1900F759001B6475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2BD1900F759001B6475 /* Foundation.framework */; };
+		EA8BD2C01900F759001B6475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2BF1900F759001B6475 /* CoreGraphics.framework */; };
+		EA8BD2C21900F759001B6475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2C11900F759001B6475 /* UIKit.framework */; };
+		EA8BD2C81900F759001B6475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8BD2C61900F759001B6475 /* InfoPlist.strings */; };
+		EA8BD2CA1900F759001B6475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2C91900F759001B6475 /* main.m */; };
+		EA8BD2CE1900F759001B6475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2CD1900F759001B6475 /* AppDelegate.m */; };
+		EA8BD2D11900F759001B6475 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8BD2CF1900F759001B6475 /* Main_iPhone.storyboard */; };
+		EA8BD2D71900F759001B6475 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2D61900F759001B6475 /* FirstViewController.m */; };
+		EA8BD2DA1900F759001B6475 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2D91900F759001B6475 /* SecondViewController.m */; };
+		EA8BD2E31900F759001B6475 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2E21900F759001B6475 /* XCTest.framework */; };
+		EA8BD2E41900F759001B6475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2BD1900F759001B6475 /* Foundation.framework */; };
+		EA8BD2E51900F759001B6475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8BD2C11900F759001B6475 /* UIKit.framework */; };
+		EA8BD2ED1900F759001B6475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8BD2EB1900F759001B6475 /* InfoPlist.strings */; };
+		EA8BD2EF1900F759001B6475 /* TraceShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2EE1900F759001B6475 /* TraceShareTests.m */; };
+		EA8BD2FA1901056F001B6475 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2F91901056F001B6475 /* FavoriteViewController.m */; };
+		EA8BD2FD1901096E001B6475 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BD2FC1901096E001B6475 /* MoreViewController.m */; };
+		EAEAE50D1917560F00A6FCF0 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE4FC1917560F00A6FCF0 /* ELCAlbumPickerController.m */; };
+		EAEAE50E1917560F00A6FCF0 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE4FE1917560F00A6FCF0 /* ELCAsset.m */; };
+		EAEAE50F1917560F00A6FCF0 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE5001917560F00A6FCF0 /* ELCAssetCell.m */; };
+		EAEAE5101917560F00A6FCF0 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE5041917560F00A6FCF0 /* ELCAssetTablePicker.m */; };
+		EAEAE5111917560F00A6FCF0 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE5061917560F00A6FCF0 /* ELCImagePickerController.m */; };
+		EAEAE5121917560F00A6FCF0 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEAE5081917560F00A6FCF0 /* ELCAlbumPickerController.xib */; };
+		EAEAE5131917560F00A6FCF0 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEAE5091917560F00A6FCF0 /* ELCAssetPicker.xib */; };
+		EAEAE5141917560F00A6FCF0 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEAE50A1917560F00A6FCF0 /* ELCAssetTablePicker.xib */; };
+		EAEAE5151917560F00A6FCF0 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEAE50B1917560F00A6FCF0 /* Overlay.png */; };
+		EAEAE5161917560F00A6FCF0 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEAE50C1917560F00A6FCF0 /* Overlay@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8BD2E61900F759001B6475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8BD2B21900F759001B6475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8BD2B91900F759001B6475;
+			remoteInfo = TraceShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0646A719201EB200431098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA7EC4281917425A0068A39B /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		EA7EC4291917425A0068A39B /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		EA8BD2BA1900F759001B6475 /* TraceShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraceShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8BD2BD1900F759001B6475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8BD2BF1900F759001B6475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA8BD2C11900F759001B6475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA8BD2C51900F759001B6475 /* TraceShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TraceShare-Info.plist"; sourceTree = "<group>"; };
+		EA8BD2C71900F759001B6475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8BD2C91900F759001B6475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8BD2CB1900F759001B6475 /* TraceShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TraceShare-Prefix.pch"; sourceTree = "<group>"; };
+		EA8BD2CC1900F759001B6475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA8BD2CD1900F759001B6475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA8BD2D01900F759001B6475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EA8BD2D51900F759001B6475 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EA8BD2D61900F759001B6475 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EA8BD2D81900F759001B6475 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EA8BD2D91900F759001B6475 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EA8BD2E11900F759001B6475 /* TraceShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8BD2E21900F759001B6475 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA8BD2EA1900F759001B6475 /* TraceShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TraceShareTests-Info.plist"; sourceTree = "<group>"; };
+		EA8BD2EC1900F759001B6475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8BD2EE1900F759001B6475 /* TraceShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceShareTests.m; sourceTree = "<group>"; };
+		EA8BD2F81901056F001B6475 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		EA8BD2F91901056F001B6475 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		EA8BD2FB1901096E001B6475 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		EA8BD2FC1901096E001B6475 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		EAEAE4FB1917560F00A6FCF0 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		EAEAE4FC1917560F00A6FCF0 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		EAEAE4FD1917560F00A6FCF0 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		EAEAE4FE1917560F00A6FCF0 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		EAEAE4FF1917560F00A6FCF0 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		EAEAE5001917560F00A6FCF0 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		EAEAE5011917560F00A6FCF0 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		EAEAE5021917560F00A6FCF0 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		EAEAE5031917560F00A6FCF0 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		EAEAE5041917560F00A6FCF0 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		EAEAE5051917560F00A6FCF0 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		EAEAE5061917560F00A6FCF0 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		EAEAE5081917560F00A6FCF0 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		EAEAE5091917560F00A6FCF0 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		EAEAE50A1917560F00A6FCF0 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		EAEAE50B1917560F00A6FCF0 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		EAEAE50C1917560F00A6FCF0 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8BD2B71900F759001B6475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8BD2C01900F759001B6475 /* CoreGraphics.framework in Frameworks */,
+				EA8BD2C21900F759001B6475 /* UIKit.framework in Frameworks */,
+				EA8BD2BE1900F759001B6475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8BD2DE1900F759001B6475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8BD2E31900F759001B6475 /* XCTest.framework in Frameworks */,
+				EA8BD2E51900F759001B6475 /* UIKit.framework in Frameworks */,
+				EA8BD2E41900F759001B6475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8BD2B11900F759001B6475 = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2C31900F759001B6475 /* TraceShare */,
+				EA8BD2E81900F759001B6475 /* TraceShareTests */,
+				EA8BD2BC1900F759001B6475 /* Frameworks */,
+				EA8BD2BB1900F759001B6475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8BD2BB1900F759001B6475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2BA1900F759001B6475 /* TraceShare.app */,
+				EA8BD2E11900F759001B6475 /* TraceShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8BD2BC1900F759001B6475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2BD1900F759001B6475 /* Foundation.framework */,
+				EA8BD2BF1900F759001B6475 /* CoreGraphics.framework */,
+				EA8BD2C11900F759001B6475 /* UIKit.framework */,
+				EA8BD2E21900F759001B6475 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8BD2C31900F759001B6475 /* TraceShare */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2CC1900F759001B6475 /* AppDelegate.h */,
+				EA8BD2CD1900F759001B6475 /* AppDelegate.m */,
+				EA8BD2CF1900F759001B6475 /* Main_iPhone.storyboard */,
+				EA8BD2D51900F759001B6475 /* FirstViewController.h */,
+				EA8BD2D61900F759001B6475 /* FirstViewController.m */,
+				EA8BD2D81900F759001B6475 /* SecondViewController.h */,
+				EA8BD2D91900F759001B6475 /* SecondViewController.m */,
+				EA7EC4281917425A0068A39B /* CaptureViewController.h */,
+				EA7EC4291917425A0068A39B /* CaptureViewController.m */,
+				EA8BD2F81901056F001B6475 /* FavoriteViewController.h */,
+				EA8BD2F91901056F001B6475 /* FavoriteViewController.m */,
+				EA8BD2FB1901096E001B6475 /* MoreViewController.h */,
+				EA8BD2FC1901096E001B6475 /* MoreViewController.m */,
+				EAEAE4FA1917560F00A6FCF0 /* ELCImagePicker */,
+				EA0646A719201EB200431098 /* Images.xcassets */,
+				EA8BD2C41900F759001B6475 /* Supporting Files */,
+			);
+			path = TraceShare;
+			sourceTree = "<group>";
+		};
+		EA8BD2C41900F759001B6475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2C51900F759001B6475 /* TraceShare-Info.plist */,
+				EA8BD2C61900F759001B6475 /* InfoPlist.strings */,
+				EA8BD2C91900F759001B6475 /* main.m */,
+				EA8BD2CB1900F759001B6475 /* TraceShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8BD2E81900F759001B6475 /* TraceShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2EE1900F759001B6475 /* TraceShareTests.m */,
+				EA8BD2E91900F759001B6475 /* Supporting Files */,
+			);
+			path = TraceShareTests;
+			sourceTree = "<group>";
+		};
+		EA8BD2E91900F759001B6475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8BD2EA1900F759001B6475 /* TraceShareTests-Info.plist */,
+				EA8BD2EB1900F759001B6475 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEAE4FA1917560F00A6FCF0 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE4FB1917560F00A6FCF0 /* ELCAlbumPickerController.h */,
+				EAEAE4FC1917560F00A6FCF0 /* ELCAlbumPickerController.m */,
+				EAEAE4FD1917560F00A6FCF0 /* ELCAsset.h */,
+				EAEAE4FE1917560F00A6FCF0 /* ELCAsset.m */,
+				EAEAE4FF1917560F00A6FCF0 /* ELCAssetCell.h */,
+				EAEAE5001917560F00A6FCF0 /* ELCAssetCell.m */,
+				EAEAE5011917560F00A6FCF0 /* ELCAssetPickerFilterDelegate.h */,
+				EAEAE5021917560F00A6FCF0 /* ELCAssetSelectionDelegate.h */,
+				EAEAE5031917560F00A6FCF0 /* ELCAssetTablePicker.h */,
+				EAEAE5041917560F00A6FCF0 /* ELCAssetTablePicker.m */,
+				EAEAE5051917560F00A6FCF0 /* ELCImagePickerController.h */,
+				EAEAE5061917560F00A6FCF0 /* ELCImagePickerController.m */,
+				EAEAE5071917560F00A6FCF0 /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		EAEAE5071917560F00A6FCF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE5081917560F00A6FCF0 /* ELCAlbumPickerController.xib */,
+				EAEAE5091917560F00A6FCF0 /* ELCAssetPicker.xib */,
+				EAEAE50A1917560F00A6FCF0 /* ELCAssetTablePicker.xib */,
+				EAEAE50B1917560F00A6FCF0 /* Overlay.png */,
+				EAEAE50C1917560F00A6FCF0 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8BD2B91900F759001B6475 /* TraceShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8BD2F21900F759001B6475 /* Build configuration list for PBXNativeTarget "TraceShare" */;
+			buildPhases = (
+				EA8BD2B61900F759001B6475 /* Sources */,
+				EA8BD2B71900F759001B6475 /* Frameworks */,
+				EA8BD2B81900F759001B6475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraceShare;
+			productName = TraceShare;
+			productReference = EA8BD2BA1900F759001B6475 /* TraceShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8BD2E01900F759001B6475 /* TraceShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8BD2F51900F759001B6475 /* Build configuration list for PBXNativeTarget "TraceShareTests" */;
+			buildPhases = (
+				EA8BD2DD1900F759001B6475 /* Sources */,
+				EA8BD2DE1900F759001B6475 /* Frameworks */,
+				EA8BD2DF1900F759001B6475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8BD2E71900F759001B6475 /* PBXTargetDependency */,
+			);
+			name = TraceShareTests;
+			productName = TraceShareTests;
+			productReference = EA8BD2E11900F759001B6475 /* TraceShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8BD2B21900F759001B6475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "JT Huang";
+				TargetAttributes = {
+					EA8BD2B91900F759001B6475 = {
+						DevelopmentTeam = R4CXJRU68J;
+					};
+					EA8BD2E01900F759001B6475 = {
+						TestTargetID = EA8BD2B91900F759001B6475;
+					};
+				};
+			};
+			buildConfigurationList = EA8BD2B51900F759001B6475 /* Build configuration list for PBXProject "TraceShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8BD2B11900F759001B6475;
+			productRefGroup = EA8BD2BB1900F759001B6475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8BD2B91900F759001B6475 /* TraceShare */,
+				EA8BD2E01900F759001B6475 /* TraceShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8BD2B81900F759001B6475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEAE5141917560F00A6FCF0 /* ELCAssetTablePicker.xib in Resources */,
+				EAEAE5121917560F00A6FCF0 /* ELCAlbumPickerController.xib in Resources */,
+				EA0646A819201EB200431098 /* Images.xcassets in Resources */,
+				EAEAE5151917560F00A6FCF0 /* Overlay.png in Resources */,
+				EA8BD2D11900F759001B6475 /* Main_iPhone.storyboard in Resources */,
+				EAEAE5161917560F00A6FCF0 /* Overlay@2x.png in Resources */,
+				EA8BD2C81900F759001B6475 /* InfoPlist.strings in Resources */,
+				EAEAE5131917560F00A6FCF0 /* ELCAssetPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8BD2DF1900F759001B6475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8BD2ED1900F759001B6475 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8BD2B61900F759001B6475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8BD2DA1900F759001B6475 /* SecondViewController.m in Sources */,
+				EAEAE50E1917560F00A6FCF0 /* ELCAsset.m in Sources */,
+				EAEAE5111917560F00A6FCF0 /* ELCImagePickerController.m in Sources */,
+				EA8BD2FD1901096E001B6475 /* MoreViewController.m in Sources */,
+				EA8BD2FA1901056F001B6475 /* FavoriteViewController.m in Sources */,
+				EA8BD2CE1900F759001B6475 /* AppDelegate.m in Sources */,
+				EAEAE50F1917560F00A6FCF0 /* ELCAssetCell.m in Sources */,
+				EAEAE50D1917560F00A6FCF0 /* ELCAlbumPickerController.m in Sources */,
+				EA8BD2D71900F759001B6475 /* FirstViewController.m in Sources */,
+				EA8BD2CA1900F759001B6475 /* main.m in Sources */,
+				EA7EC42A1917425B0068A39B /* CaptureViewController.m in Sources */,
+				EAEAE5101917560F00A6FCF0 /* ELCAssetTablePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8BD2DD1900F759001B6475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8BD2EF1900F759001B6475 /* TraceShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8BD2E71900F759001B6475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8BD2B91900F759001B6475 /* TraceShare */;
+			targetProxy = EA8BD2E61900F759001B6475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8BD2C61900F759001B6475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8BD2C71900F759001B6475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA8BD2CF1900F759001B6475 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8BD2D01900F759001B6475 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8BD2EB1900F759001B6475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8BD2EC1900F759001B6475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8BD2F01900F759001B6475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8BD2F11900F759001B6475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8BD2F31900F759001B6475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceShare/TraceShare-Prefix.pch";
+				INFOPLIST_FILE = "TraceShare/TraceShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA8BD2F41900F759001B6475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceShare/TraceShare-Prefix.pch";
+				INFOPLIST_FILE = "TraceShare/TraceShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA8BD2F61900F759001B6475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TraceShare.app/TraceShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceShare/TraceShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TraceShareTests/TraceShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA8BD2F71900F759001B6475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TraceShare.app/TraceShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceShare/TraceShare-Prefix.pch";
+				INFOPLIST_FILE = "TraceShareTests/TraceShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8BD2B51900F759001B6475 /* Build configuration list for PBXProject "TraceShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8BD2F01900F759001B6475 /* Debug */,
+				EA8BD2F11900F759001B6475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8BD2F21900F759001B6475 /* Build configuration list for PBXNativeTarget "TraceShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8BD2F31900F759001B6475 /* Debug */,
+				EA8BD2F41900F759001B6475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8BD2F51900F759001B6475 /* Build configuration list for PBXNativeTarget "TraceShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8BD2F61900F759001B6475 /* Debug */,
+				EA8BD2F71900F759001B6475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8BD2B21900F759001B6475 /* Project object */;
+}
